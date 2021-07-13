@@ -2,8 +2,6 @@ require 'twilio-ruby'
 require 'date'
 require 'yaml'
 
-require 'pry'
-
 require_relative './retrieve_user_id'
 require_relative './user_tweet_timeline'
 require_relative './text_msg'
