@@ -26,6 +26,8 @@ It's important to wrap the phone number in quote marks otherwise it will be read
 One you've got some contacts in there you should be good to go.  
 Either hardcode the Twitter username into the `retrieve_user_id` method call or leave it blank to enter one in the terminal when it is called.
 
+Start the app by running `ruby app.rb`
+
 ### Future development
 - I'd like to clean up the src code so everything is in it's own proper directory
 - I'd also like to eventually send the text message as soon as the person tweets. I think that's a 'premium' feature of the Twitter API though
